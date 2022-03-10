@@ -49,4 +49,4 @@ jobs:
       - name: build
         uses: matlab-actions/run-command@v1
         with: 
-            command: cd(fullfile(''..'',''MATLABGitHubWorkstep'');ci.test();
+            command: cd ..;cd MATLABGitHubWorkstep;ci.test();
