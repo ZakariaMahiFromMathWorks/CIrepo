@@ -49,4 +49,4 @@ jobs:
       - name: build
         uses: matlab-actions/run-command@v1
         with: 
-            command: dir,ci.test();
+            command: pwd,dir,ci.test();
