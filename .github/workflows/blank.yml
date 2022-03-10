@@ -35,7 +35,7 @@ jobs:
      
       - uses: actions/checkout@v1
         with:
-         name: ZakariaMahiFromMathWorks/MATLABGitHubWorkstep     <-- clone https://github.com/ZakariaMahiFromMathWorks/MATLABGitHubWorkstep
+         name: ZakariaMahiFromMathWorks/MATLABGitHubWorkstep
          ref: refs/heads/release
          submodules: recursive
             
