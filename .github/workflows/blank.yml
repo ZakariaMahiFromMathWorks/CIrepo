@@ -33,9 +33,10 @@ jobs:
             # repository: carsoftwareorg/mbsd-demo_code
             submodules: recursive 
      
-      - uses: actions/checkout@v1
+      - name: checkout repo to test
+        uses: actions/checkout@v1
         with:
-         name: ZakariaMahiFromMathWorks/MATLABGitHubWorkstep
+         repository: ZakariaMahiFromMathWorks/MATLABGitHubWorkstep
          ref: refs/heads/release
          submodules: recursive
             
