@@ -38,6 +38,7 @@ jobs:
         with:
          repository: ZakariaMahiFromMathWorks/MATLABGitHubWorkstep
          ref: refs/heads/dev_fixActionsWhenRunningMATLAB
+         path: ./MATLABGitHubWorkstep
          submodules: recursive
             
       # Setup MATLAB on runner
